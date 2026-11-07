@@ -38,7 +38,7 @@ function About() {
         </div>
 
         {/* Right Image */}
-        <div className="relativ order-1 md:order-2">
+        <div className="relative z-10 h-52 w-full rounded-xl object-cover shadow-md transition-transform duration-500 ease-out group-hover:scale-[1.03] md:h-72">
 
           {/* Decorative Background */}
           <div className="absolute -right-2 -top-2 h-20 w-20 rounded-full bg-lime-200"></div>
@@ -58,3 +58,4 @@ function About() {
 }
 
 export default About;
+
