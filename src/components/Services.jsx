@@ -44,14 +44,14 @@ function Services() {
 
           <div
             key={index}
-            className="overflow-hidden rounded-xl border border-gray-200 bg-white shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-lg"
+            className="group overflow-hidden rounded-xl border border-gray-200 bg-white shadow-sm transition-all duration-300 ease-out hover:-translate-y-2 hover:shadow-xl"
           >
 
             {/* Image */}
             <img
               src={service.image}
               alt={service.title}
-              className="h-44 w-full object-cover"
+              className="h-44 w-full object-cover transition-transform duration-500 ease-out group-hover:scale-110"
             />
 
             {/* Content */}
@@ -85,3 +85,4 @@ function Services() {
 }
 
 export default Services;
+
